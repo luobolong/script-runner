@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: script-runner
+  mvc:
+    static-path-pattern: /**
+
+ssh:
+  connection-ip: 172.26.96.172
+  connection-port: 22
+  username: root
+  password: w
+  timeout: 60000
